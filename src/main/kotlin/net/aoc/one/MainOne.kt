@@ -23,6 +23,6 @@ private fun getAggregatedCaloriesList(): List<Int> {
 fun main() {
     val aggregatedCaloriesList = getAggregatedCaloriesList()
 
-    println("The elf with the most calories carries ${getDayOneResult(aggregatedCaloriesList)} calories.")
-    println("the calories total for the top 3 elves is ${getDayTwoResult(aggregatedCaloriesList)} calories.")
+    println("The elf with the most calories carries ${getPartOneResult(aggregatedCaloriesList)} calories.")
+    println("the calories total for the top 3 elves is ${getPartTwoResult(aggregatedCaloriesList)} calories.")
 }

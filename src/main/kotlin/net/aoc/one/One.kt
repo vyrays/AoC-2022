@@ -1,5 +1,5 @@
 package net.aoc.one
 
-fun getDayOneResult(aggregatedCalories: List<Int>): Int {
+fun getPartOneResult(aggregatedCalories: List<Int>): Int {
     return aggregatedCalories.first()
 }
